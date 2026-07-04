@@ -1,8 +1,8 @@
-# Search Algorithms
+# Search algorithms
 ![Author](https://img.shields.io/badge/Author:-Võ%20Hoàng%20Anh%20Tuấn-orange?style=flat-square) 
 ![University](https://img.shields.io/badge/University:-HCMUS-yellow?style=flat-square) 
 ![Language](https://img.shields.io/badge/Language-C++-lightgrey?style=flat-square)
-# Table of Contents
+# Table of contents
 + [1. Introduction](#1-introduction)
 + [2. Content](#2-content)
 ---
@@ -14,7 +14,7 @@ Each search algorithm has its own advantages and disadvantages as a trade-off. T
 > **Note:** If you find any issues or inaccurate content, feel free to provide feedback.
 ---
 # 2. Content
-## 2.1. Linear Search
+## 2.1. Linear search
 **Idea:** We iterate sequentially from the beginning of the array to the end (forward) or backwward. If the element is found, we return its index.
 ```cpp
 int linear_search(const vector<int>& array, const int left, const int right, const int value) {
