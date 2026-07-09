@@ -4,7 +4,7 @@ const int INVALID_INDEX = -1;
 
 using namespace std;
 
-// Các thao tác trên mảng
+// Array implementations
 void print_array(const vector<int>& array) {
     cout << "The array:\n";
     for (int i = 0; i < array.size(); i++) {
@@ -13,7 +13,7 @@ void print_array(const vector<int>& array) {
     cout << "\n";
 }
 
-// Các thuật toán tìm kiếm 
+// Search algorithms
 class linear_search {
     private: 
     const vector<int>& array;
