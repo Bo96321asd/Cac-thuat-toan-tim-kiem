@@ -16,10 +16,13 @@ Each search algorithm has its own advantages and disadvantages as a trade-off. T
 # 2. Content
 ## 2.1. Linear search
 **Performance:**  
-Time complexity: $T(n) = O(n)$.    
-Space complexity: $S(n) = O(1)$.  
-Advantages: Easy implementation, no need for sorted data. 
-Disadvantages: Inefficient for large datasets.
+Time complexity: $O(n)$.    
+Space complexity: $O(1)$.  
+Advantages:  
+Easy implementation.  
+No need for sorted data.  
+Disadvantages:  
+Inefficient for large datasets.
 ```cpp
 int linear_search(const vector<int>& array, const int left, const int right, const int value) {
     for (int i = left; i <= right; i++) { 
@@ -32,10 +35,13 @@ int linear_search(const vector<int>& array, const int left, const int right, con
 ```  
 ## 2.2. Binary search 
 **Performance:**  
-Time complexity: $T(n) = O(logn)$.  
-Space complexity: $S(n) = O(1)$.  
-Advantages: Highly efficient for large, sorted datasets.  
-Disadvantages: Requires the array to be sorted, rearranging elements may lose their original indices. (Suggested: Using pair)
+Time complexity: $O(logn)$.  
+Space complexity: $O(1)$.  
+Advantages:  
+Highly efficient for large, sorted datasets.   
+Disadvantages:  
+Requires the array to be sorted.  
+Rearranging elements may lose their original indices. (Suggested: Using pair)
 ```C++
 int search(const vector<int>& array, const int left, const int right, const int value) {
     if (left > right) { 
